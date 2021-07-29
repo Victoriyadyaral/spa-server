@@ -15,30 +15,7 @@
 
 <body>
 
-  <header class="page-header page-header__library">
-    <div class="container">
-      <nav class="page-header__navigation">
-        <a href="/index.html" class="logo" data-link>
-          <svg class="logo__icon" width="24" height="24">
-            <use href="./images/sprite.svg#icon-film"></use>
-          </svg>
-          <span class="logo__text">Filmoteka</span>
-        </a>
-        <ul class="site-nav">
-          <li class="site-nav__item">
-            <a href="/home" class="site-nav__link" data-link>Home</a>
-          </li>
-          <li class="site-nav__item">
-            <a href="/library" class="site-nav__link site-nav__link--current" data-link>My library</a>
-          </li>
-        </ul>
-      </nav>
-      <div class="header__buttons">
-        <button type="button" class="header__button button--current">Watched</button>
-        <button type="button" class="header__button">Queue</button>
-      </div>
-    </div>
-  </header>
+<include src="./partials/library-header.html"></include>
  
   <div id="app"></div>
 <!-- <include src="./partials/footer.html"></include> -->
