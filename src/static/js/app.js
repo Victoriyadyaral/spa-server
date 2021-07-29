@@ -1,8 +1,8 @@
   
 import Dashboard from "./views/dashboard.js";
-import Posts from "./views/Posts.js";
-import PostView from "./views/PostView.js";
-import Settings from "./views/Settings.js";
+import Posts from "./views/posts.js";
+import PostView from "./views/post-view.js";
+import Settings from "./views/settings.js";
 
 const pathToRegex = path => new RegExp("^" + path.replace(/\//g, "\\/").replace(/:\w+/g, "(.+)") + "$");
 
