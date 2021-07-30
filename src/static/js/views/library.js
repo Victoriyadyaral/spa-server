@@ -3,7 +3,7 @@ import AbstractView from "./abstract-view.js";
 export default class extends AbstractView {
     constructor(params) {
         super(params);
-        this.setTitle("LIBRARY");
+        this.setTitle("FILMOTEKA/library");
     }
 
     async getHtml() {
