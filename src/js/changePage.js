@@ -21,7 +21,10 @@ function onHeaderLinkClick(event) {
             refs.navLinks[2].classList.add('site-nav__link--current');
             refs.header.classList.add('header-library');
             refs.headerInputWrap.classList.add('hide');
-        } 
+        } else {
+            removeElementClass()
+          refs.header.classList.add('header-home');  
+        }
     }
 }
 
