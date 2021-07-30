@@ -9,8 +9,8 @@ export default class extends AbstractView {
     async getHtml() {
         return `
             <section class="film-cards">
-              <h1>Main-page</h1>
                 <div class="container">
+                <h1>Main-page</h1>
                   <ul class="film-cards__list js-pop-film-list"></ul>
                 </div>
             </section>
