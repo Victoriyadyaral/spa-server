@@ -11,7 +11,7 @@ export default class extends AbstractView {
             <section class="film-cards">
               <h1>Main-page</h1>
                 <div class="container">
-                  <ul class="popular-film-cards__list list"></ul>
+                  <ul class="film-cards__list js-pop-film-list"></ul>
                 </div>
             </section>
         `;
