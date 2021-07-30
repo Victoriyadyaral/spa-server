@@ -8,12 +8,11 @@ export default class extends AbstractView {
 
     async getHtml() {
         return `
-            <section class="container">
-            <h1>Page</h1>
-            <p>
-                Урааааааааа!
-            </p>
-            
+            <section class="film-cards">
+              <h1>Main-page</h1>
+                <div class="container">
+                  <ul class="popular-film-cards__list list"></ul>
+                </div>
             </section>
         `;
     }
